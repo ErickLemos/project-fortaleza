@@ -1,4 +1,4 @@
-package org.cabradati.projectfortaleza.core
+package org.cabradati.projectfortaleza.core.utils
 
 import org.slf4j.LoggerFactory
 

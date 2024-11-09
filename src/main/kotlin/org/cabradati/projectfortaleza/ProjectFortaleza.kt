@@ -1,8 +1,7 @@
 package org.cabradati.projectfortaleza
 
 import net.fabricmc.api.ModInitializer
-import org.cabradati.projectfortaleza.core.eventbus.EventBus
-import org.cabradati.projectfortaleza.events.VillageInitialization
+import org.cabradati.projectfortaleza.commands.DevCommands
 import org.slf4j.LoggerFactory
 
 object ProjectFortaleza : ModInitializer {
@@ -10,7 +9,8 @@ object ProjectFortaleza : ModInitializer {
 
     override fun onInitialize() {
         logger.info("project fortaleza - init")
-        EventBus.publish(VillageInitialization())
+
+        DevCommands.registerCommands()
     }
 
 }
