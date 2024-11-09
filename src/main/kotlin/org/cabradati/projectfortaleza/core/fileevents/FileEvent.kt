@@ -1,4 +1,4 @@
-package org.cabradati.projectfortaleza.core.eventbus.file
+package org.cabradati.projectfortaleza.core.fileevents
 
 data class FileEvent(
     val name: String,

@@ -1,4 +1,4 @@
-package org.cabradati.projectfortaleza.models
+package org.cabradati.projectfortaleza.core.models
 
 import java.util.UUID.randomUUID
 

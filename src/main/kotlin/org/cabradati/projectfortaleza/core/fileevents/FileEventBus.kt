@@ -1,4 +1,4 @@
-package org.cabradati.projectfortaleza.core.eventbus.file
+package org.cabradati.projectfortaleza.core.fileevents
 
 import io.reactivex.rxjava3.schedulers.Schedulers
 import io.reactivex.rxjava3.subjects.BehaviorSubject

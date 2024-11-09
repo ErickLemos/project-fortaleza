@@ -1,6 +1,6 @@
 package org.cabradati.projectfortaleza.mecanisms.relationship
 
-import org.cabradati.projectfortaleza.models.Village
+import org.cabradati.projectfortaleza.core.models.Village
 import org.jgrapht.graph.DefaultDirectedGraph
 import org.jgrapht.graph.DefaultEdge
 
