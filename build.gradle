@@ -46,6 +46,11 @@ dependencies {
 
 	testImplementation "net.fabricmc:fabric-loader-junit:${project.loader_version}"
 	implementation "io.reactivex.rxjava3:rxjava:3.1.9"
+
+	implementation 'com.fasterxml.jackson.core:jackson-core:2.18.1'
+	implementation 'com.fasterxml.jackson.core:jackson-annotations:2.18.1'
+	implementation 'com.fasterxml.jackson.core:jackson-databind:2.18.1'
+
 	testImplementation(platform("org.junit:junit-bom:5.11.3"))
 	testRuntimeOnly("org.junit.platform:junit-platform-launcher")
 	testRuntimeOnly("org.junit.jupiter:junit-jupiter-engine")
