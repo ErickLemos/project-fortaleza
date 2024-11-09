@@ -4,7 +4,7 @@ import org.cabradati.projectfortaleza.core.eventbus.Event
 import org.cabradati.projectfortaleza.core.eventbus.EventType
 import org.cabradati.projectfortaleza.core.utils.log
 
-class VillageInitialization: Event {
+class VillageCreation: Event {
     override val type = EventType.CORE
     override fun invoke() {
         log("${Thread.currentThread()} initialization event")
