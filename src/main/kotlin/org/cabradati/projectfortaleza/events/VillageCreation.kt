@@ -6,6 +6,7 @@ import org.cabradati.projectfortaleza.core.fileevents.FileEvent
 import org.cabradati.projectfortaleza.core.fileevents.FileEventBus
 import org.cabradati.projectfortaleza.core.utils.objectMapper
 import org.cabradati.projectfortaleza.core.models.Village
+import org.cabradati.projectfortaleza.mecanisms.relationship.RelationshipModule
 
 class VillageCreation(
     val village: Village
@@ -19,6 +20,8 @@ class VillageCreation(
                 content = objectMapper.writeValueAsString(village)
             )
         )
+
+        RelationshipModule.registerVillage(village)
     }
 
 }

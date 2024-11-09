@@ -3,6 +3,8 @@ package org.cabradati.projectfortaleza.core.eventbus
 import io.reactivex.rxjava3.schedulers.Schedulers
 import io.reactivex.rxjava3.subjects.BehaviorSubject
 
+fun publishEvent(event: Event) = EventBus.publish(event)
+
 object EventBus {
     private val queue = BehaviorSubject.create<Event>()
 
