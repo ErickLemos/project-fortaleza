@@ -6,7 +6,7 @@ import org.cabradati.projectfortaleza.core.fileevents.FileEvent
 import org.cabradati.projectfortaleza.core.fileevents.FileEventBus
 import org.cabradati.projectfortaleza.core.utils.objectMapper
 import org.cabradati.projectfortaleza.core.models.Village
-import org.cabradati.projectfortaleza.mecanisms.relationship.RelationshipModule
+import org.cabradati.projectfortaleza.modules.relationship.RelationshipModule
 
 class VillageCreation(
     val village: Village

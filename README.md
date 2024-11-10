@@ -1,5 +1,15 @@
 # Project Fortaleza
 
+## technologies
+
+- Quartz
+- Caffeine cache
+- LMAX Disruptor
+- Google Guava
+- RxJava
+- JGrapht
+- Nitrite
+
 ## mecanismos
 
 - economia
