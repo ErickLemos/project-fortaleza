@@ -9,9 +9,12 @@ import java.nio.file.StandardOpenOption
 fun saveFile(
     path: String,
     fileName: String,
-    content: Any
+    content: Any,
+    threadName: String
 ) {
-    Thread.ofVirtual().start {
+    Thread.ofVirtual()
+        .name(threadName)
+        .start {
         val pathForCreate = File(path)
         if (!pathForCreate.exists()) pathForCreate.mkdirs()
 
