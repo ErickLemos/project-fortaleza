@@ -44,6 +44,7 @@ dependencies {
     testImplementation "net.fabricmc:fabric-loader-junit:${project.loader_version}"
     implementation "io.reactivex.rxjava3:rxjava:3.1.9"
     implementation "org.jgrapht:jgrapht-core:1.5.2"
+    implementation 'com.lmax:disruptor:4.0.0'
 
     implementation 'com.fasterxml.jackson.core:jackson-core:2.18.1'
     implementation 'com.fasterxml.jackson.core:jackson-annotations:2.18.1'

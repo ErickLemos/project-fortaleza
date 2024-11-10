@@ -1,3 +1,5 @@
 package org.cabradati.projectfortaleza.core.eventbus
 
-interface Event
+interface EventManager {
+    fun register()
+}
