@@ -1,4 +1,4 @@
-package org.cabradati.projectfortaleza.core.models
+package org.cabradati.projectfortaleza.modules.village.models
 
 import java.math.BigInteger
 
