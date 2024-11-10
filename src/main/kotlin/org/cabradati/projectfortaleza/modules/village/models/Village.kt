@@ -1,10 +1,10 @@
 package org.cabradati.projectfortaleza.modules.village.models
 
+import com.fasterxml.jackson.annotation.JsonIgnore
 import java.util.UUID
 
 class Village(
-    val uuid: String = UUID.randomUUID().toString(),
     var name: String,
-    var description: String,
-    var budget: EconomyBudget
+    @JsonIgnore val villagers: List<Villager> = emptyList<Villager>(),
+    val uuid: String = UUID.randomUUID().toString(),
 )
